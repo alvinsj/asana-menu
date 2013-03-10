@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EE459D0DA8457C8DCEF3D8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B00B0E02C1F4875AD52E1F4 /* libPods.a */; };
+		87009AAE169F38DE00A982F4 /* AccountPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87009AAD169F38DE00A982F4 /* AccountPreferencesViewController.m */; };
+		87009AB1169F39D500A982F4 /* AccountPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87009AB0169F39D500A982F4 /* AccountPreferences.xib */; };
+		8705A1A5169B3558006485A5 /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8705A1A2169B3558006485A5 /* MASPreferencesWindow.xib */; };
+		8705A1A6169B3558006485A5 /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8705A1A4169B3558006485A5 /* MASPreferencesWindowController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		873FAEDD169084D80090E217 /* Status.png in Resources */ = {isa = PBXBuildFile; fileRef = 873FAEDB169084D80090E217 /* Status.png */; };
+		873FAEDE169084D80090E217 /* StatusHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 873FAEDC169084D80090E217 /* StatusHighlighted.png */; };
+		873FAEE0169084F70090E217 /* Panel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873FAEDF169084F70090E217 /* Panel.xib */; };
+		873FAEE1169087D70090E217 /* PanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FAED8169084940090E217 /* PanelController.m */; };
+		873FAEE2169087F30090E217 /* MenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FAED6169084940090E217 /* MenubarController.m */; };
+		873FAEE3169088000090E217 /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FAED2169084820090E217 /* StatusItemView.m */; };
+		873FAEE4169088030090E217 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FAED4169084820090E217 /* BackgroundView.m */; };
+		873FAEE5169088080090E217 /* Panel.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FAED0169084820090E217 /* Panel.m */; };
+		874D08101690820200CEE01B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874D080F1690820200CEE01B /* Cocoa.framework */; };
+		874D081A1690820300CEE01B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 874D08181690820300CEE01B /* InfoPlist.strings */; };
+		874D081C1690820300CEE01B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 874D081B1690820300CEE01B /* main.m */; };
+		874D08201690820300CEE01B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 874D081E1690820300CEE01B /* Credits.rtf */; };
+		874D08231690820300CEE01B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 874D08221690820300CEE01B /* AppDelegate.m */; };
+		874D08261690820300CEE01B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 874D08241690820300CEE01B /* MainMenu.xib */; };
+		874D08291690820300CEE01B /* AsanaMenu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 874D08271690820300CEE01B /* AsanaMenu.xcdatamodeld */; };
+		87AF622C169C0B5E00035964 /* ClickableTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AF622B169C0B5E00035964 /* ClickableTextView.m */; };
+		87B128E81690905C00C31343 /* AsanaAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B128E71690905C00C31343 /* AsanaAPI.m */; };
+		87B128F31690AB4D00C31343 /* Workspace.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B128F21690AB4D00C31343 /* Workspace.m */; };
+		87B128F61690AB5E00C31343 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B128F51690AB5E00C31343 /* Task.m */; };
+		87B128F91690AB6D00C31343 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B128F81690AB6D00C31343 /* Project.m */; };
+		87B129051690B8F200C31343 /* JSONRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B129041690B8F200C31343 /* JSONRequest.m */; };
+		87B129081690C74600C31343 /* TaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B129071690C74600C31343 /* TaskView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B00B0E02C1F4875AD52E1F4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		87009AAC169F38DE00A982F4 /* AccountPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountPreferencesViewController.h; sourceTree = "<group>"; };
+		87009AAD169F38DE00A982F4 /* AccountPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountPreferencesViewController.m; sourceTree = "<group>"; };
+		87009AB0169F39D500A982F4 /* AccountPreferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountPreferences.xib; sourceTree = "<group>"; };
+		8705A1A1169B3558006485A5 /* MASPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesViewController.h; sourceTree = "<group>"; };
+		8705A1A2169B3558006485A5 /* MASPreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MASPreferencesWindow.xib; sourceTree = "<group>"; };
+		8705A1A3169B3558006485A5 /* MASPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesWindowController.h; sourceTree = "<group>"; };
+		8705A1A4169B3558006485A5 /* MASPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASPreferencesWindowController.m; sourceTree = "<group>"; };
+		873FAECF169084820090E217 /* Panel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Panel.h; sourceTree = "<group>"; };
+		873FAED0169084820090E217 /* Panel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Panel.m; sourceTree = "<group>"; };
+		873FAED1169084820090E217 /* StatusItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusItemView.h; sourceTree = "<group>"; };
+		873FAED2169084820090E217 /* StatusItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusItemView.m; sourceTree = "<group>"; };
+		873FAED3169084820090E217 /* BackgroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		873FAED4169084820090E217 /* BackgroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+		873FAED5169084940090E217 /* MenubarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenubarController.h; sourceTree = "<group>"; };
+		873FAED6169084940090E217 /* MenubarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenubarController.m; sourceTree = "<group>"; };
+		873FAED7169084940090E217 /* PanelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanelController.h; sourceTree = "<group>"; };
+		873FAED8169084940090E217 /* PanelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanelController.m; sourceTree = "<group>"; };
+		873FAEDB169084D80090E217 /* Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Status.png; sourceTree = "<group>"; };
+		873FAEDC169084D80090E217 /* StatusHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusHighlighted.png; sourceTree = "<group>"; };
+		873FAEDF169084F70090E217 /* Panel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Panel.xib; sourceTree = "<group>"; };
+		874D080B1690820200CEE01B /* AsanaMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsanaMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		874D080F1690820200CEE01B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		874D08121690820200CEE01B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		874D08131690820200CEE01B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		874D08141690820200CEE01B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		874D08171690820300CEE01B /* AsanaMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AsanaMenu-Info.plist"; sourceTree = "<group>"; };
+		874D08191690820300CEE01B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		874D081B1690820300CEE01B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		874D081D1690820300CEE01B /* AsanaMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AsanaMenu-Prefix.pch"; sourceTree = "<group>"; };
+		874D081F1690820300CEE01B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		874D08211690820300CEE01B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		874D08221690820300CEE01B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		874D08251690820300CEE01B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		874D08281690820300CEE01B /* AsanaMenu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AsanaMenu.xcdatamodel; sourceTree = "<group>"; };
+		87AF622A169C0B5E00035964 /* ClickableTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickableTextView.h; sourceTree = "<group>"; };
+		87AF622B169C0B5E00035964 /* ClickableTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickableTextView.m; sourceTree = "<group>"; };
+		87B128E61690905C00C31343 /* AsanaAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsanaAPI.h; sourceTree = "<group>"; };
+		87B128E71690905C00C31343 /* AsanaAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsanaAPI.m; sourceTree = "<group>"; };
+		87B128F11690AB4D00C31343 /* Workspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Workspace.h; sourceTree = "<group>"; };
+		87B128F21690AB4D00C31343 /* Workspace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Workspace.m; sourceTree = "<group>"; };
+		87B128F41690AB5E00C31343 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		87B128F51690AB5E00C31343 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		87B128F71690AB6D00C31343 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		87B128F81690AB6D00C31343 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		87B129031690B8F200C31343 /* JSONRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRequest.h; sourceTree = "<group>"; };
+		87B129041690B8F200C31343 /* JSONRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONRequest.m; sourceTree = "<group>"; };
+		87B129061690C74600C31343 /* TaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskView.h; sourceTree = "<group>"; };
+		87B129071690C74600C31343 /* TaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskView.m; sourceTree = "<group>"; };
+		93CD6D93ACA347998F334EE0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		874D08081690820200CEE01B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874D08101690820200CEE01B /* Cocoa.framework in Frameworks */,
+				18EE459D0DA8457C8DCEF3D8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8705A199169B1DA0006485A5 /* MASPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				8705A1A1169B3558006485A5 /* MASPreferencesViewController.h */,
+				8705A1A2169B3558006485A5 /* MASPreferencesWindow.xib */,
+				8705A1A3169B3558006485A5 /* MASPreferencesWindowController.h */,
+				8705A1A4169B3558006485A5 /* MASPreferencesWindowController.m */,
+			);
+			name = MASPreferences;
+			sourceTree = "<group>";
+		};
+		873FAED9169084A90090E217 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				873FAEDA169084C30090E217 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		873FAEDA169084C30090E217 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				873FAEDB169084D80090E217 /* Status.png */,
+				873FAEDC169084D80090E217 /* StatusHighlighted.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		873FAEEA16908FB00090E217 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				8705A199169B1DA0006485A5 /* MASPreferences */,
+				87B129021690B87600C31343 /* API */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		874D08001690820200CEE01B = {
+			isa = PBXGroup;
+			children = (
+				874D08151690820200CEE01B /* AsanaMenu */,
+				873FAED9169084A90090E217 /* Resources */,
+				874D080E1690820200CEE01B /* Frameworks */,
+				874D080C1690820200CEE01B /* Products */,
+				93CD6D93ACA347998F334EE0 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		874D080C1690820200CEE01B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				874D080B1690820200CEE01B /* AsanaMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		874D080E1690820200CEE01B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				874D080F1690820200CEE01B /* Cocoa.framework */,
+				874D08111690820200CEE01B /* Other Frameworks */,
+				4B00B0E02C1F4875AD52E1F4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		874D08111690820200CEE01B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				874D08121690820200CEE01B /* AppKit.framework */,
+				874D08131690820200CEE01B /* CoreData.framework */,
+				874D08141690820200CEE01B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		874D08151690820200CEE01B /* AsanaMenu */ = {
+			isa = PBXGroup;
+			children = (
+				873FAEEA16908FB00090E217 /* Custom */,
+				874D08311690838400CEE01B /* Views */,
+				874D08301690836500CEE01B /* Models */,
+				874D082F1690835900CEE01B /* Controllers */,
+				874D08211690820300CEE01B /* AppDelegate.h */,
+				874D08221690820300CEE01B /* AppDelegate.m */,
+				874D08161690820300CEE01B /* Supporting Files */,
+			);
+			path = AsanaMenu;
+			sourceTree = "<group>";
+		};
+		874D08161690820300CEE01B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				874D08271690820300CEE01B /* AsanaMenu.xcdatamodeld */,
+				874D08171690820300CEE01B /* AsanaMenu-Info.plist */,
+				874D08181690820300CEE01B /* InfoPlist.strings */,
+				874D081B1690820300CEE01B /* main.m */,
+				874D081D1690820300CEE01B /* AsanaMenu-Prefix.pch */,
+				874D081E1690820300CEE01B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		874D082F1690835900CEE01B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				873FAED5169084940090E217 /* MenubarController.h */,
+				873FAED6169084940090E217 /* MenubarController.m */,
+				873FAED7169084940090E217 /* PanelController.h */,
+				873FAED8169084940090E217 /* PanelController.m */,
+				87009AAC169F38DE00A982F4 /* AccountPreferencesViewController.h */,
+				87009AAD169F38DE00A982F4 /* AccountPreferencesViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		874D08301690836500CEE01B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				87B128F11690AB4D00C31343 /* Workspace.h */,
+				87B128F21690AB4D00C31343 /* Workspace.m */,
+				87B128F41690AB5E00C31343 /* Task.h */,
+				87B128F51690AB5E00C31343 /* Task.m */,
+				87B128F71690AB6D00C31343 /* Project.h */,
+				87B128F81690AB6D00C31343 /* Project.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		874D08311690838400CEE01B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				873FAEDF169084F70090E217 /* Panel.xib */,
+				873FAECF169084820090E217 /* Panel.h */,
+				873FAED0169084820090E217 /* Panel.m */,
+				873FAED1169084820090E217 /* StatusItemView.h */,
+				873FAED2169084820090E217 /* StatusItemView.m */,
+				873FAED3169084820090E217 /* BackgroundView.h */,
+				873FAED4169084820090E217 /* BackgroundView.m */,
+				874D08241690820300CEE01B /* MainMenu.xib */,
+				87B129061690C74600C31343 /* TaskView.h */,
+				87B129071690C74600C31343 /* TaskView.m */,
+				87AF622A169C0B5E00035964 /* ClickableTextView.h */,
+				87AF622B169C0B5E00035964 /* ClickableTextView.m */,
+				87009AB0169F39D500A982F4 /* AccountPreferences.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		87B129021690B87600C31343 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				87B129031690B8F200C31343 /* JSONRequest.h */,
+				87B129041690B8F200C31343 /* JSONRequest.m */,
+				87B128E61690905C00C31343 /* AsanaAPI.h */,
+				87B128E71690905C00C31343 /* AsanaAPI.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		874D080A1690820200CEE01B /* AsanaMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874D082C1690820300CEE01B /* Build configuration list for PBXNativeTarget "AsanaMenu" */;
+			buildPhases = (
+				874D08071690820200CEE01B /* Sources */,
+				874D08081690820200CEE01B /* Frameworks */,
+				874D08091690820200CEE01B /* Resources */,
+				206DA6243D334B9A8E701E31 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsanaMenu;
+			productName = AsanaMenu;
+			productReference = 874D080B1690820200CEE01B /* AsanaMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		874D08021690820200CEE01B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = alvin;
+			};
+			buildConfigurationList = 874D08051690820200CEE01B /* Build configuration list for PBXProject "AsanaMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 874D08001690820200CEE01B;
+			productRefGroup = 874D080C1690820200CEE01B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				874D080A1690820200CEE01B /* AsanaMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		874D08091690820200CEE01B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874D081A1690820300CEE01B /* InfoPlist.strings in Resources */,
+				874D08201690820300CEE01B /* Credits.rtf in Resources */,
+				874D08261690820300CEE01B /* MainMenu.xib in Resources */,
+				873FAEDD169084D80090E217 /* Status.png in Resources */,
+				873FAEDE169084D80090E217 /* StatusHighlighted.png in Resources */,
+				873FAEE0169084F70090E217 /* Panel.xib in Resources */,
+				8705A1A5169B3558006485A5 /* MASPreferencesWindow.xib in Resources */,
+				87009AB1169F39D500A982F4 /* AccountPreferences.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		206DA6243D334B9A8E701E31 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		874D08071690820200CEE01B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874D081C1690820300CEE01B /* main.m in Sources */,
+				874D08231690820300CEE01B /* AppDelegate.m in Sources */,
+				874D08291690820300CEE01B /* AsanaMenu.xcdatamodeld in Sources */,
+				873FAEE1169087D70090E217 /* PanelController.m in Sources */,
+				873FAEE2169087F30090E217 /* MenubarController.m in Sources */,
+				873FAEE3169088000090E217 /* StatusItemView.m in Sources */,
+				873FAEE4169088030090E217 /* BackgroundView.m in Sources */,
+				873FAEE5169088080090E217 /* Panel.m in Sources */,
+				87B128E81690905C00C31343 /* AsanaAPI.m in Sources */,
+				87B128F31690AB4D00C31343 /* Workspace.m in Sources */,
+				87B128F61690AB5E00C31343 /* Task.m in Sources */,
+				87B128F91690AB6D00C31343 /* Project.m in Sources */,
+				87B129051690B8F200C31343 /* JSONRequest.m in Sources */,
+				87B129081690C74600C31343 /* TaskView.m in Sources */,
+				8705A1A6169B3558006485A5 /* MASPreferencesWindowController.m in Sources */,
+				87AF622C169C0B5E00035964 /* ClickableTextView.m in Sources */,
+				87009AAE169F38DE00A982F4 /* AccountPreferencesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		874D08181690820300CEE01B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874D08191690820300CEE01B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		874D081E1690820300CEE01B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874D081F1690820300CEE01B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		874D08241690820300CEE01B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874D08251690820300CEE01B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		874D082A1690820300CEE01B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		874D082B1690820300CEE01B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		874D082D1690820300CEE01B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93CD6D93ACA347998F334EE0 /* Pods.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AsanaMenu/AsanaMenu-Prefix.pch";
+				INFOPLIST_FILE = "AsanaMenu/AsanaMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		874D082E1690820300CEE01B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93CD6D93ACA347998F334EE0 /* Pods.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AsanaMenu/AsanaMenu-Prefix.pch";
+				INFOPLIST_FILE = "AsanaMenu/AsanaMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		874D08051690820200CEE01B /* Build configuration list for PBXProject "AsanaMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874D082A1690820300CEE01B /* Debug */,
+				874D082B1690820300CEE01B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874D082C1690820300CEE01B /* Build configuration list for PBXNativeTarget "AsanaMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874D082D1690820300CEE01B /* Debug */,
+				874D082E1690820300CEE01B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		874D08271690820300CEE01B /* AsanaMenu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				874D08281690820300CEE01B /* AsanaMenu.xcdatamodel */,
+			);
+			currentVersion = 874D08281690820300CEE01B /* AsanaMenu.xcdatamodel */;
+			path = AsanaMenu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 874D08021690820200CEE01B /* Project object */;
+}
