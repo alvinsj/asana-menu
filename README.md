@@ -1,21 +1,28 @@
-asana-menu
-==========
+## Asana menu
 
-Asana Mac OSX client, minimized.
+### Inspiration
+Asana Mac OSX client, a simpler one. 
+The UI on Asana Web is getting complicated, and I actually need a simple one.
 
+### Roadmap
+- Better mark complete action
+- Show task details, comments
 
-features
-===========
+### Set up and user manual
+- Compile and build with XCode
+- App will launch in top bar as a star (⭐), click on it.
+- Click the preferences button (🔞) in app to set user API key.   
+(e.g. API key can be obtained from Asana Web Account Settings(bottom left) or keep logged in in Safari).  
+- Click the cross button (❎) to exit the app.
 
-- load uncompleted tasks (click status text to reload)  
-- filter task by task name and project name with search bar  
-- add task in project (select from the dropdown)  
-- mark task as complete (just click on the checkbox)  
+### Changelog
+##### v0.0.1
+- Preference window to set user API key.
+- Load not-completed tasks list.
+- Click status text to reload task. 
+- Search bar to filter tasks by task or project name
+- Create new task in a project(selected from the combo)  
+- Mark task as complete (just click on the checkbox)  
 
-
-instructions
-===========
-
-app will launch in top bar as a star. click on the star to view.  
-click the preferences button in app to set your api key.   
-(e.g. each user can get api key from asana web or you just need to login with safari).  
+### Feedback/Ideas
+- ping me at [@alvinsj](http://twitter.com/alvinsj)
